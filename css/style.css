@@ -1,0 +1,149 @@
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: #919191!important;
+    min-height: 15vh;
+    font-size: 100px;
+}
+.navItem{
+    margin-top: 6%;
+}
+
+.carouselImg {
+    background-color: #919191!important;
+    height: 50vh;
+    margin: auto;
+}
+
+.myCarousel {
+    width: 82%;
+    background-color: #919191!important;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 50vh;
+}
+.myCarousel i{
+    font-size: 200px;
+}
+
+
+.prevIcon{
+    width: 2%;
+    left: 5%;
+}
+.nextIcon {
+    left: 94%;
+    width: 2%;
+}
+
+.carousel-btn{
+    margin-bottom: 1%;
+}
+
+.cardiImg{
+    height: 30vh;
+    background-color:#919191 ;
+    font-size: 150px;
+}
+
+.news-cards{
+    margin: auto;
+    width: 75%;
+}
+/* .news-card:nth-of-type(2){
+    margin-top: 5%;
+}
+.news-card:last-of-type{
+    margin-top: 10%;
+} */
+
+
+@media (max-width : 460px){
+    .news-card-two{
+        margin-top: 5%;
+    }
+    .news-card-three{
+        margin-top: 10%;
+    }    
+}
+
+#myTab{
+    align-items: baseline;
+    margin-top: -3%;
+}
+.nav-link-custom{
+    font-weight: bolder;
+    margin-top: -50px;
+}
+
+.footer-icons{
+    height: 60px;
+}
+
+@media (max-width : 990px){
+    #myTab{
+        margin-top: 0%;
+    }
+    .myCarousel{
+        width: 94%;
+    }
+    .table{
+        width: 95%;
+    }
+    .news-cards{
+        width: 84%;
+    }
+    .nav-link-custom{
+        font-weight: bolder;
+        margin-top: -45px;
+    }
+}
+
+@media (max-width: 770px){
+    .nav-link-custom {
+        font-weight: bolder;
+        margin-top: -40px;
+    }
+    .row-cols-1 > * {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 70%;
+        /* margin-bottom: 4%; */
+        margin: auto;
+        margin-bottom: 4%;
+    }
+}
+
+@media (max-width:475px){
+    .align-items-center {
+        -ms-flex-align: center !important;
+        align-items: center !important;
+        min-width: 102%;
+    }
+}
+
+.Privacy{
+    border: double 1px gray;
+    border-radius: 20px;
+    padding: 50px;
+    background: #e3e6ff;
+}
+.Privacy-title{
+    font-size: 2.5rem;
+}
+.form-img{
+    background: url(../img/Contact\ us.webp) no-repeat center center;
+    height: 100vh;
+}
+
+i{
+    align-self: center;
+    text-align: center;
+    color: blue;
+
+}
+
+footer i {
+    color: white;
+}
